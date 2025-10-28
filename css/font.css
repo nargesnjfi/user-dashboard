@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Vazirmatn-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Vazirmatn-Regular.woff2);
+}
+
+@font-face {
+  font-family: "Vazirmatn-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/assets/fonts/Vazirmatn-Bold.woff2);
+}
+
+@font-face {
+  font-family: "yekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Yekan.woff);
+}
+@font-face {
+  font-family: "yekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Yekan.woff);
+}
+@font-face {
+  font-family: "yekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url(/assets/fonts/Yekan.eot);
+}
+
+body,
+button {
+  font-family: "yekan", "Vazirmatn-Regular", sans-serif;
+}

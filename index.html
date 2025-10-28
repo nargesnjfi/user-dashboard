@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Task2|NargesNajafi</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel">
+        <div class="panel-sidebar">
+          <!-- sidebar header -->
+          <div class="panel-sidebar__header">
+            <div class="user-profile-wrapper">
+              <div class="user-profile__main-info">
+                <div class="user-profile__avatar">
+                  <svg class="icon avatar-icon">
+                    <use xlink:href="/assets/images/svg-sprite.svg#User"></use>
+                  </svg>
+                </div>
+
+                <div class="user-profile__text">
+                  <span class="user-profile__name">نرگس نجفی</span>
+                  <span class="user-profile__phone">۰۹۱۰۸۴۴۰۱۵۹</span>
+                </div>
+              </div>
+
+              <a href="#" class="user-profile__edit-btn">
+                <svg class="icon edit-icon">
+                  <use xlink:href="/assets/images/svg-sprite.svg#Pen"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="panel-sidebar__content">
+            <ul class="main-menu">
+              <li class="main-menu__item main-menu__item--active">
+                <a href="#" class="main-menu__link">
+                  <svg class="icon main-menu__icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#home-happy"
+                    ></use>
+                  </svg>
+                  سفارش های من
+                </a>
+              </li>
+
+              <li class="main-menu__item">
+                <a href="#" class="main-menu__link">
+                  <svg class="icon main-menu__icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#User-SEARCH"
+                    ></use>
+                  </svg>
+                  اطلاعات حساب کاربری
+                </a>
+              </li>
+
+              <li class="main-menu__item">
+                <a href="#" class="main-menu__link">
+                  <span class="main-menu__badge">۳</span>
+                  پیام ها
+                  <svg class="icon main-menu__icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#notification-bell-ringing"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="main-menu__item">
+                <a href="#" class="main-menu__link">
+                  <svg class="icon main-menu__icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#chat-bubble"
+                    ></use>
+                  </svg>
+                  نظرات من
+                </a>
+              </li>
+              <li class="main-menu__item">
+                <a href="#" class="main-menu__link">
+                  <svg class="icon main-menu__icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#logout"
+                    ></use>
+                  </svg>
+                  خروج
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- panel content -->
+        <div class="panel-content">
+          <div class="order-text">
+            <svg class="icon order-badge">
+              <use xlink:href="/assets/images/svg-sprite.svg#Right"></use>
+            </svg>
+            <p>سفارش های من</p>
+          </div>
+          <!-- status cards -->
+          <div class="status-cards">
+            <div class="status-card status-processing selected">
+              <div class="status-icon status-icon-processing">
+                <svg class="icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#Time-Circle"
+                  ></use>
+                </svg>
+              </div>
+              <div class="status-info">
+                <span class="status-label">در حال پردازش</span>
+                <span class="status-count">۵ سفارش</span>
+              </div>
+            </div>
+
+            <div class="status-card status-delivered">
+              <div class="status-icon status-icon-delivered">
+                <svg class="icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#check-circle"
+                  ></use>
+                </svg>
+              </div>
+              <div class="status-info">
+                <span class="status-label">مرجوعی</span>
+                <span class="status-count">۲ سفارش</span>
+              </div>
+            </div>
+
+            <div class="status-card status-returned">
+              <div class="status-icon status-icon-returned">
+                <svg class="icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#circle-left"
+                  ></use>
+                </svg>
+              </div>
+              <div class="status-info">
+                <span class="status-label">مرجوعی</span>
+                <span class="status-count">۲ سفارش</span>
+              </div>
+            </div>
+
+            <div class="status-card status-cancelled">
+              <div class="status-icon status-icon-cancelled">
+                <svg class="icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#Close-Circle"
+                  ></use>
+                </svg>
+              </div>
+              <div class="status-info">
+                <span class="status-label">لغو شده</span>
+                <span class="status-count">۳ سفارش</span>
+              </div>
+            </div>
+          </div>
+          <!-- order cards -->
+          <div class="order-list">
+            <div class="order-item">
+              <div class="order-status-badge">
+                <svg class="icon badge-icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#Time-Circle"
+                  ></use>
+                </svg>
+                <span>در حال پردازش</span>
+              </div>
+              <div class="order-meta">
+                <div class="order-meta-details">
+                  <span class="meta-code">
+                    <span class="meta-label">کد سفارش:</span>
+                    <span class="meta-value">۷۱۶۵۴۴۹</span>
+                  </span>
+                  <span class="meta-date">
+                    <span class="meta-label">تاریخ تحویل سفارش:</span>
+                    <span class="meta-value">۱۴۰۳/۰۵/۰۷</span>
+                  </span>
+                </div>
+
+                <div class="order-meta-price">
+                  <span class="price-amount">۱,۴۵۰,۰۰۰</span>
+                  <span class="price-currency">تومان</span>
+                </div>
+              </div>
+              <div class="order-products-actions">
+                <div class="product-avatars-list">
+                  <div class="product-mini-list">
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image1.png" alt="Product 1" />
+                      <span class="product-count">۳</span>
+                    </div>
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image2.png" alt="Product 2" />
+                      <span class="product-count">۱</span>
+                    </div>
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image3.png" alt="Product 3" />
+                      <span class="product-count">۱</span>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="order-details-link">
+                  <span>جزئیات سفارش</span>
+                  <svg class="icon link-icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#Arrow Icon"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div class="order-list">
+            <div class="order-item">
+              <div class="order-status-badge">
+                <svg class="icon badge-icon">
+                  <use
+                    xlink:href="/assets/images/svg-sprite.svg#Time-Circle"
+                  ></use>
+                </svg>
+                <span>در حال پردازش</span>
+              </div>
+              <div class="order-meta">
+                <div class="order-meta-details">
+                  <span class="meta-code">
+                    <span class="meta-label">کد سفارش:</span>
+                    <span class="meta-value">۷۱۶۵۴۴۹</span>
+                  </span>
+                  <span class="meta-date">
+                    <span class="meta-label">تاریخ تحویل سفارش:</span>
+                    <span class="meta-value">۱۴۰۳/۰۵/۰۷</span>
+                  </span>
+                </div>
+
+                <div class="order-meta-price">
+                  <span class="price-amount">۱,۴۵۰,۰۰۰</span>
+                  <span class="price-currency">تومان</span>
+                </div>
+              </div>
+              <div class="order-products-actions">
+                <div class="product-avatars-list">
+                  <div class="product-mini-list">
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image1.png" alt="Product 1" />
+                      <span class="product-count">۳</span>
+                    </div>
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image2.png" alt="Product 2" />
+                      <span class="product-count">۱</span>
+                    </div>
+                    <div class="product-mini-item">
+                      <img src="/assets/images/image3.png" alt="Product 3" />
+                      <span class="product-count">۱</span>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="order-details-link">
+                  <span>جزئیات سفارش</span>
+                  <svg class="icon link-icon">
+                    <use
+                      xlink:href="/assets/images/svg-sprite.svg#Arrow Icon"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
